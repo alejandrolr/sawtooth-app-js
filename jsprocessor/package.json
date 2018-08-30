@@ -1,0 +1,26 @@
+{
+  "name": "sawtooth-simplewallet-jsprocessor",
+  "version": "1.0.0",
+  "description": "A simplewallet transaction processor/family using sawtooth js sdk",
+  "homepage": "https://github.com/alejandrolr/sawtooth-app-js.git",
+  "repository": "https://github.com/alejandrolr/sawtooth-app-js.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js tcp://validator:4004"
+  },
+  "author": "Ashish K Mishra",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "protobufjs": "^6.7.3",
+    "secp256k1": "^3.2.5",
+    "uuid": "^3.0.1",
+    "zeromq": "^4.2.1",
+    "sawtooth-sdk": "^1.0.2",
+    "text-encoding": "^0.6.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0",
+    "underscore": "^1.8.3"
+  }
+}
